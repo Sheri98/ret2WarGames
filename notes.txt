@@ -1,0 +1,15 @@
+calling convention is schema how the arguments are passed and recived results
+x64 - linux
+1st arg: rdi
+2nd arg: rsi
+3rd arg: rdx
+4th arg: rcx
+5th arg: r8
+6th arg: r9
+result = rax
+
+if there are more than 6 arguments they are pushed to stack.
+
+Vuln Functions:
+strcmp()
+memcpy()
